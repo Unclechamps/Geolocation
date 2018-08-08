@@ -18,7 +18,7 @@ btnGetUserLocation.addEventListener('click',function(){
       console.log(position.coords.longitude)
 
       // console.log('https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword='+termToSearch+'&inputtype=textquery&fields=photo,formatted_address,name,type&location='+latitude+','+longitude+'&key='+API_KEY)
-
+    
       console.log('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+latitude+','+longitude+'&radius=1500&keyword='+termToSearch+'&key='+API_KEY)
 
 
